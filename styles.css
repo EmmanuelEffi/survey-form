@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,700;1,300;1,400;1,700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Poppins, "sans-serif";
+  font-size: 1.1em;
+  color: white;
+}
+
+body::before {
+  content: "";
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background-image: linear-gradient(115deg, rgba(58, 58, 158, 0.8), rgba(136, 136, 206, 0.7)), url('images/background.jpeg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  z-index: -1;
+}
+
+header {
+  text-align: center;
+  padding: 40px 5px;
+}
+
+header h1 {
+  font-weight: 400;
+  font-size: 1.8em;
+}
+
+header p {
+  font-style: italic;
+  font-weight: 200;
+}
+
+main {
+  background-color: rgba(42, 41, 72, .85);
+  padding: 40px 0px;
+}
+
+input {
+  font-family: Poppins;
+  padding: 10px 0px;
+  font-size: .9em;
+  color: #333333;
+}
+
+form div {
+  display: flex;
+  flex-direction: column;
+  margin: 30px 10px;
+}
+
+.radio-container div {
+  flex-direction: row;
+  margin: 5px 0px;
+  text-align: left;
+}
+
+.radio-container label, .checkbox-container label{
+  margin-left: 7px;
+}
+
+.select-container div{
+  margin: 10px 0px;
+}
+
+select {
+  font-family: Poppins;
+  padding: 9px 0px;
+  color: #333333;
+}
+
+.checkbox-container div {
+  flex-direction: row;
+  margin: 5px 0px;
+}
+
+textarea {
+  resize: vertical;
+  font-family: Poppins;
+  margin: 10px 0px 0px;
+  height: 100px;
+}
+
+#submit {
+  padding: 15px;
+  font-size: .9em;
+  font-family: Poppins;
+  color: white;
+  background-color: #37af65;
+  border: none;
+  border-radius: 3px;
+}
+
+
+
+@media (min-width: 750px) {
+    .container {
+    
+        padding: 10% 20%;
+    }
+}
