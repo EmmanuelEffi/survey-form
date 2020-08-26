@@ -106,7 +106,11 @@ textarea {
 
 @media (min-width: 750px) {
     .container {
-    
         padding: 10% 20%;
+    }
+
+    #submit {
+      width: 50%;
+      margin: auto;
     }
 }
